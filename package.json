@@ -29,7 +29,7 @@
     "bootstrap": "^3.3.7",
     "circular-buffer": "^1.0.2",
     "compression": "^1.7.0",
-    "csv-parse": "^4.3.3",
+    "csv-parse": "^4.4.6",
     "dc": "^2.0.2",
     "express": "^4.14.1",
     "express-fileupload": "^1.1.2-alpha.1",
