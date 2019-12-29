@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Use correct character set. -->
+        <meta charset="utf-8">
+        <!-- Tell IE to use the latest, best version. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <title>The Suffering of Job</title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <style type="text/css">
+            .row-centered {
+                text-align:center;
+            }
+            .col-centered {
+                display:inline-block;
+                float:none;
+                text-align:left;
+                margin-right:-4px;
+            }
+            table, th, td {
+                border: 1px solid black;
+                text-align: center;
+            }
+            
+        </style>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <a href="/">return home</a>
+        <h1>The Suffering of Job</h1>
+        <p>This game is similar to the game of Mafia, but is about the suffering of Job.</p>
+        <h3>Reference: </h3>
+        <p>Book of Job. Specifically chapters 1, 2, and 42.</p>
+        A good guy named Job lived in Uz. He has 7 sons and 3 daughters. He had 7000 sheep, 3000 camels, 500 oxen, 500 donkeys. He was the richest person in the area.
+        First Satan burned all his sheep.
+        Second they stole the camels and killed his servants.
+        Third his children all died in a windstorm.
+        Fourth he got boils all over his body.
+        <p></p>
+        <h3>Summary: </h3>
+        <p></p>
+        <h3>Gameplay:</h3>
+        <h5><b>Age Range:</b> 8 to 15</h5>
+        <h5><b>Number of Participants:</b> 5 to 25</h5>
+        <h5><b>Equipment:</b></h5>
+        <ol>
+            <li>A place to play</li>
+        </ol>
+        <h5><b>Roles:</b></h5>
+        <ul>
+            <li>Job - tries to figure out who is doing this to him</li>
+            <li>God - selects Satan and Job and allows Satan to destroy stuff</li>
+            <li>Satan - chooses what to destroy</li>
+            <li>Job's Family, Livestock, Possessions - get destroyed</li>
+        </ul>
+        <h6><b>Mapping to Mafia:</b></h6>
+        <table>
+            <tr>
+                <th>Job Role</th>
+                <th>Mafia Role</th>
+            </tr>
+            <tr>
+                <td>God</td>
+                <td>Judge</td>
+            </tr>
+            <tr>
+                <td>Satan</td>
+                <td>Murderer/Spy</td>
+            </tr>
+            <tr>
+                <td>Job</td>
+                <td>Detective</td>
+            </tr>
+            <tr>
+                <td>Job's Family, Livestock, Possessions</td>
+                <td>Victims</td>
+            </tr>
+        </table>
+        <h5><b>Rules:</b></h5>
+        <ul>
+            <li>The oldest person is 'God'</li>
+            <li>Everyone closes their eyes except for 'God'. 'God' taps someone once to be Job. 'God' taps someone twice to be Satan.</li>
+            <li>Everyone closes their eyes and 'God' says "Satan choose to destroy one of Job's possessions"</li>
+            <li>Satan wakes up and chooses someone to destroy.</li>
+            <li>Satan goes back to sleep</li>
+            <li>Everyone wakes up</li>
+            <li>'God' announces who has been destroyed</li>
+            <li></li>
+        </ul>
+        <h3>Questions:</h3>
+        <ul>
+            <li>Why did Satan have to ask God for permission to test Job?
+                Satan needs an audience. Satan wanted to prove to God that even Job would foresake God if his stuff were taken away.
+            </li>
+            <li>Why did God allow Satan to kill Job's family?
+                What if the rest of Job's family were good people too?
+            </li>
+        </ul>
+        <h3>Authors:</h3>
+        <ul>
+            <li>Kelly</li>
+            <li>Joanna</li>
+            <li>Ethan</li>
+            <li>Handsome John</li>
+            <li>Joshua</li>
+            <li>Thanos David</li>
+            <li>Pickled Timothy</li>
+            <li>Matt</li>
+        </ul>
+    </body>
+    <script>
+        var socket = io.connect('/');
+
+        socket.on('connect',function(data){});
+    </script>
+</html>

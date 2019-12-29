@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Use correct character set. -->
+        <meta charset="utf-8">
+        <!-- Tell IE to use the latest, best version. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <title>NLBC Games Developed by the 5th Grade Sunday School Class</title>
+
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <style type="text/css">
+            .row-centered {
+                text-align:center;
+            }
+            .col-centered {
+                display:inline-block;
+                float:none;
+                text-align:left;
+                margin-right:-4px;
+            }
+            
+        </style>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <h1>List of Games</h1>
+        <p>The following games have been developed by the 5th grade Sunday school class at New Life Baptist Church.</p>
+        <ul>
+            <li><a href="/games/job/">The Suffering of Job</a> - November 2018</li>
+            <li><a href="/games/runner/">Abraham and Isaac</a> - December 2018</li>
+        </ul>
+        <p>The following games are additional games developed at New Life Baptist Church.</p>
+        <ul>
+            <li><a href="/games/rudolph/">Random Rudolph</a> - December 2019</li>
+        </ul>
+    </body>
+    <script>
+        var socket = io.connect('/');
+
+        socket.on('connect',function(data){});
+    </script>
+</html>

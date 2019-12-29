@@ -1,0 +1,25 @@
+You ate bad meat from an animal. Lose a turn.
+You found a box with a snake inside. The snake bit you. Lose a turn.
+A family member went missing. Go look for them. Lose a turn.
+You lost a bag of your belongings. Go back 5 spaces to search.
+You received some delicious cheese. Take an extra turn now.
+Rewind time to rethink life decisions. Every player move back 3 spaces.
+Your friends had a celebration. Go forward two spaces.
+The bridges are out for you. Do not cross any bridges for 4 turns until they can be repaired for you.
+You ran out of food. Go back 5 spaces.
+You found a lost lamb in the forest. Go forward 5 spaces.
+Your brother saw you. Go back 3 spaces to make distance.
+You got in a fight. Roll 1 die. The number on the die is the number of days in the hospital. Move back that number of spaces.
+You met up with your friends. Move forward 2 spaces.
+You found a lost ram in the mountains. Go forward 6 spaces.
+You met God. Go forward 10 spaces.
+You ate some poisonous berries. Lose a turn.
+A storm approaches. Move back 2 spaces.
+You became sick. Lose a turn.
+You found a treasure in the well. Move forward 5 spaces.
+You were scammed by your uncle. Move back 7 spaces.
+You met your brother. Go back 2 spaces or forward 2 spaces.
+You got lost. Move back 5 spaces to get perspective.
+You ate berries. Go forward 5 spaces with your extra energy.
+You fell in some water and almost drowned. Take swimming lessons. Lose a turn.
+There is a flash flood. Go back 8 spaces to find dry land.
