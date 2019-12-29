@@ -41,7 +41,7 @@
     "kinect2": "^0.1.6",
     "md5-file": "^3.2.3",
     "mongodb": "^2.2.30",
-    "mongoose": "^5.2.18",
+    "mongoose": "^5.7.5",
     "mqtt": "^2.5.0",
     "node-schedule": "^1.2.5",
     "normalize.css": "^7.0.0",
