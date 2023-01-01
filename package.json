@@ -47,7 +47,7 @@
     "normalize.css": "^7.0.0",
     "pako": "^1.0.5",
     "path": "^0.12.7",
-    "phaser": "^3.16.2",
+    "phaser": "^3.55.2",
     "promise": "^7.1.1",
     "prompt": "^1.0.0",
     "socket.io": "^2.1.1",
